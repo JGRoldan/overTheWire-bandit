@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Dentro hay un archivo readme que nos da acceso al proximo nivel
+
+cat readme
