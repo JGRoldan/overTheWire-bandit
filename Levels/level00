@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Primero hay que conectarnos mediante SSH 
+# esto nos proporciona acceso al nivel 1.
+
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+#password : bandit0
