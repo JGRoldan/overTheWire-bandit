@@ -3,4 +3,7 @@
 # Dentro de esta carpeta hay un archivo readme 
 # que hay que leerlo para pasar al proximo nivel.
 
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+#password : bandit0
+
 cat readme
