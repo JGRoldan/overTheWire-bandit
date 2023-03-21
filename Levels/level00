@@ -1,7 +1,52 @@
 #!/bin/bash
+#########################################
+################ LEVEL 0 ################
+#########################################
 
 # Primero hay que conectarnos mediante SSH 
 # esto nos proporciona acceso al nivel 1.
 
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 #password : bandit0
+
+#########################################
+################ LEVEL 1 ################
+#########################################
+
+cat readme #NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+#########################################
+################ LEVEL 2 ################
+#########################################
+
+cat ./- # rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+#cat < -
+
+#########################################
+################ LEVEL 3 ################
+#########################################
+
+ls spaces\ in\ this\ filename #aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+#########################################
+################ LEVEL 4 ################
+#########################################
+
+find . -type f
+cat inhere/.hidden #2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+#########################################
+################ LEVEL 5 ################
+#########################################
+
+file inhere/* #Sarching files human-readable
+cat inhere/-file07 #lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+#########################################
+################ LEVEL 6 ################
+#########################################
+
+find . -type f -readable ! -executable -size 1033c | xargs cat | xargs #4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+# next => ssh bandit6@bandit.labs.overthewire.org -p 2220
+
