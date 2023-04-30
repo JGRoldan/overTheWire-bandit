@@ -56,4 +56,10 @@ find / -group bandit6 -size 33c
 cd /var/lib/dpkg/info/
 cat bandit7.password #z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
-# next => ssh bandit8@bandit.labs.overthewire.org -p 2220
+#########################################
+################ LEVEL 7 ################
+#########################################
+
+cat data.txt | grep millionth #TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+# next => ssh bandit9@bandit.labs.overthewire.org -p 2220
