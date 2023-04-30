@@ -68,4 +68,10 @@ cat data.txt | grep millionth
 
 sort data.txt | uniq -u #EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
-# next => ssh bandit10@bandit.labs.overthewire.org -p 2220
+#########################################
+############### LEVEL 10 ################
+#########################################
+
+strings data.txt | grep "===*" | tail -n1 | awk 'NF{print $NF}' #G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+# next => ssh bandit11@bandit.labs.overthewire.org -p 2220
