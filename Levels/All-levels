@@ -48,5 +48,12 @@ cat inhere/-file07 #lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
 
 find . -type f -readable ! -executable -size 1033c | xargs cat | xargs #4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
 
-# next => ssh bandit6@bandit.labs.overthewire.org -p 2220
+#########################################
+################ LEVEL 7 ################
+#########################################
 
+find / -group bandit6 -size 33c
+cd /var/lib/dpkg/info/
+cat bandit7.password #z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+# next => ssh bandit8@bandit.labs.overthewire.org -p 2220
