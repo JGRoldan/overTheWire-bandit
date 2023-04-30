@@ -57,7 +57,7 @@ cd /var/lib/dpkg/info/
 cat bandit7.password #z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
 
 #########################################
-################ LEVEL 7 ################
+################ LEVEL 8 ################
 #########################################
 
 cat data.txt | grep millionth #TESKZC0XvTetK0S9xNwm25STk5iWrBvP
